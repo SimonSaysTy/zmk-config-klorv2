@@ -125,7 +125,7 @@
 
             bindings = <
            &kp EXCL   &kp AT        &mt UP_ARROW POUND  &kp EXCL   &kp PERCENT                  &kp CARET  &kp AMPS  &kp RA(ASTERISK)  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS
-&kp RA(A)  &trans     &kp RA(LEFT)  &kp DOWN            &kp RIGHT  &trans                       &trans     &trans    &trans            &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp RA(O)              &trans
+&kp RA(A)  &trans     &kp RA(LEFT)  &kp DOWN            &kp RIGHT  &trans                       &trans     &kp TAB   &kp ENTER         &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp RA(O)              &trans
 &trans     &kp LC(Z)  &trans        &kp LC(C)           &kp LC(V)  &trans       &trans  &trans  &trans     &trans    &trans            &trans                          &trans                 &trans
                                     &mo 3               &trans     &trans       &trans  &trans  &trans     &trans    &trans
             >;
