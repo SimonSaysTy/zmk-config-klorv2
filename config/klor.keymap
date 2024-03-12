@@ -38,8 +38,7 @@
         MT: MT {
             compatible = "zmk,behavior-hold-tap";
             label = "MT";
-            bindings = <&mt>, <&none>;
-
+            bindings = <&MT >;
             #binding-cells = <2>;
             tapping-term-ms = <250>;
         };
