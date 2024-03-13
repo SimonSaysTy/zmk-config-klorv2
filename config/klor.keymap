@@ -24,8 +24,6 @@
 #define RAISE  2
 #define ADJUST 3
 
-&mt { tapping-term-ms = <250>; };
-
 / {
     behaviors {
         hm: homerow_mods {
