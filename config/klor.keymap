@@ -125,10 +125,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-           &kp EXCL   &kp AT        &mt UP_ARROW POUND  &kp EXCL   &kp PERCENT                     &kp CARET          &kp AMPS         &kp RA(ASTERISK)  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS
-&kp RA(A)  &trans     &kp RA(LEFT)  &kp DOWN            &kp RIGHT  &rgb_ug RGB_ON                  &bl BL_TOG         &kp TAB          &kp ENTER         &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp RA(O)              &trans
-&trans     &kp LC(Z)  &trans        &kp LC(C)           &kp LC(V)  &trans          &trans  &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans            &trans                          &trans                 &trans
-                                    &mo 3               &trans     &trans          &trans  &trans  &trans             &trans           &trans
+           &kp EXCL   &kp AT        &mt UP_ARROW POUND  &kp EXCL   &kp PERCENT                      &kp CARET          &kp AMPS         &kp RA(ASTERISK)  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS
+&kp RA(A)  &trans     &kp RA(LEFT)  &kp DOWN            &kp RIGHT  &rgb_ug RGB_TOG                  &bl BL_TOG         &kp TAB          &kp ENTER         &mt DOUBLE_QUOTES SINGLE_QUOTE  &kp RA(O)              &trans
+&trans     &kp LC(Z)  &trans        &kp LC(C)           &kp LC(V)  &rgb_ug RGB_EFF  &trans  &trans  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans            &trans                          &trans                 &trans
+                                    &mo 3               &trans     &trans           &trans  &trans  &trans             &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
